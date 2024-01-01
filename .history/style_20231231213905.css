@@ -63,7 +63,7 @@ nav {
 }
 nav h1 {
     font-size: 2rem;
-    color: rgba(21, 20, 20, 0.837);
+    color: #0E2431;
     margin-left: 1.7rem;
 }
 
@@ -72,7 +72,7 @@ nav h1 {
     width: 100%;
     background-color: #EFF8FF;
     padding-bottom: 7%;
-    display: flex;
+    /* display: flex; */
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
@@ -81,10 +81,8 @@ nav h1 {
     /* border: 2px solid black; */
 }
 .head-1 {
-    margin-top: -1.2%;
+    margin-top: -1%;
     opacity: 0.1;
-    border: 0.8px solid black;
-    width: 100%;
 }
 .left-content {
     padding-top: 5%;
@@ -102,6 +100,7 @@ nav h1 {
     display: inline;
 }
 #bl {
+    /* color: rgba(21, 20, 20, 0.837); */
     color: #3E6FF4;
 }
 .group-btn {
@@ -128,10 +127,9 @@ nav h1 {
 .social {
     margin-top: 4%;
     margin-left: -1%;
-    /* border: 2px solid black; */
 }
 .social img {
-    width: 3%;
+    width: 3.3%;
     padding-left: 1%;
     cursor: pointer;
     background: none;
@@ -149,6 +147,7 @@ nav h1 {
     width: 100%;
     flex-wrap: wrap;
     align-items: center;
+
     display: flex;
     position: none;
     justify-content: space-evenly;
@@ -158,11 +157,14 @@ nav h1 {
     text-align: center;
     margin-top: 5%;
     color: #3E6FF4;
+    /* font-family: "Poppins"; */
     font-size: 2.2rem;
     font-style: normal;
     font-weight: 700;
-    text-decoration: underline;
+    line-height: normal;
+    text-transform: capitalize;
 }
+
 .front-2_under {
     display: flex;
     flex-direction: row;
@@ -178,13 +180,15 @@ nav h1 {
     flex: 1;
 }
 .left-content .left-img {
-    width: 60%; 
-    max-width: 100%;
+    width: 60%; /* Adjust the width to your needs */
+    max-width: 100%; /* Make sure the image is responsive */
     height: auto;
     border-radius: 1%;
 }
 .right-para {
     flex: 1;
+    /* max-height: auto; */
+    /* border: 2px solid blue; */
 }
 .heading-2 {
     font-size: 2.5rem;
@@ -200,6 +204,7 @@ nav h1 {
  /*********************** Section - 3 **************************/ 
  .section-3 {
     width: 100%;
+    /* background-color: #EFF8FF; */
     height: auto;
     margin-top: 5%;
     flex-wrap: wrap;
@@ -208,14 +213,16 @@ nav h1 {
     flex-direction: column;
     align-items: center;
 }
+
 .heading-skills {
     font-size: 2rem;
     font-weight: bolder;
     text-align: center;
     line-height: 80px;
+    font-weight: bolder;
+    text-align: center;
     color: #3E6FF4;
     margin-top: 3%;
-    text-decoration: underline;
 }
 .main-section-3 {
     display: felx;
@@ -229,16 +236,19 @@ nav h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 2%;
-    margin-left: -43%;
-    margin-bottom: 1%;
-    width: 45%;
+    margin-top: 6% !important;
+    margin-bottom: 4%;
+    width: 80%;
     /* border: 2px solid black; */
 }
 .heading-3 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* text-align: center; */
+    margin-left: -33%;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-left: -68%;
 }
 #descrip {
     color: #3b454b;

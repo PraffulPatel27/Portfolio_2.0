@@ -128,7 +128,7 @@ nav h1 {
 .social {
     margin-top: 4%;
     margin-left: -1%;
-    /* border: 2px solid black; */
+    border: 2px solid black;
 }
 .social img {
     width: 3%;
