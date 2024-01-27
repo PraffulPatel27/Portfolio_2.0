@@ -186,6 +186,9 @@ nav h1 {
     cursor: pointer;
     /* background: none; */
 }
+.social img:hover {
+    
+}
 .pic {
     width: 20rem;
     margin-top:5%;
@@ -363,6 +366,7 @@ nav h1 {
 
 .box-1:hover {
     border: 1px solid #00B089;
+    box-shadow: #00B089 0px 1px 2px 0px, #00B089 0px 2px 6px 2px;
 }
 .box-1 img {
     width: 12%;
@@ -381,14 +385,15 @@ nav h1 {
     padding-right: 2.5rem;
 }
 
-/*********** Section - 5 ***********/
 .section-5 {
     width: 100%;
     background-color:#192027;
     padding-bottom: 4rem;
 }
 .section-5 h1 {
-    font-size: 3.1rem;
+    margin-top: 1.5%;
+    text-align: center;
+    color: #fff;
 }
 .head-5 {
     text-align: center;
@@ -406,8 +411,8 @@ nav h1 {
 .pro-1 {
     /* border: 1px solid #00B089; */
     border-radius: 16px;
-    width: 23rem;
-    height: 22rem;
+    width: 20rem;
+    height: 13rem;
     margin-bottom: 2.5rem;
 }
 .pro-1 img {
@@ -419,7 +424,6 @@ nav h1 {
 
 }
 
-/*********** Section - 6 ***********/
 .section-6 {
     width: 100%;
     background-color:#272A37;

@@ -88,6 +88,12 @@ nav h1 {
     align-items: center;
     /* border: 2px solid black; */
 }
+/* .head-1 {
+    margin-top: -1.2%;
+    opacity: 0.1;
+    border: 0.8px solid black;
+    width: 100%;
+} */
 .left-content {
     padding-top: 5%;
     padding-left: 10%;
@@ -113,10 +119,14 @@ nav h1 {
     font-size: 25px;
 }
 
+<!-- HTML !-->
+<button class="button-28">Button 28</button>
+
 /* CSS */
 .btn {
   appearance: none;
-  background-color: #fff;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
   border-radius: 15px;
   box-sizing: border-box;
   color: #3B3B3B;
@@ -137,22 +147,21 @@ nav h1 {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 10%;
-  height: 3rem;
-  margin-top: 7%;
-  margin-left: 0.5%;
+  width: 100%;
   will-change: transform;
 }
+
 .btn:disabled {
   pointer-events: none;
 }
+
 .btn:hover {
   color: #fff;
-  background-color: #192027;
+  background-color: #1A1A1A;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
-  border: 2px solid #fff;
 }
+
 .btn:active {
   box-shadow: none;
   transform: translateY(0);
@@ -185,6 +194,9 @@ nav h1 {
     padding-left: 1%;
     cursor: pointer;
     /* background: none; */
+}
+.social img:hover {
+    
 }
 .pic {
     width: 20rem;
@@ -381,14 +393,15 @@ nav h1 {
     padding-right: 2.5rem;
 }
 
-/*********** Section - 5 ***********/
 .section-5 {
     width: 100%;
     background-color:#192027;
     padding-bottom: 4rem;
 }
 .section-5 h1 {
-    font-size: 3.1rem;
+    margin-top: 1.5%;
+    text-align: center;
+    color: #fff;
 }
 .head-5 {
     text-align: center;
@@ -406,8 +419,8 @@ nav h1 {
 .pro-1 {
     /* border: 1px solid #00B089; */
     border-radius: 16px;
-    width: 23rem;
-    height: 22rem;
+    width: 20rem;
+    height: 13rem;
     margin-bottom: 2.5rem;
 }
 .pro-1 img {
@@ -419,7 +432,6 @@ nav h1 {
 
 }
 
-/*********** Section - 6 ***********/
 .section-6 {
     width: 100%;
     background-color:#272A37;

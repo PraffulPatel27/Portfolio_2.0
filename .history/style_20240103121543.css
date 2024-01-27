@@ -387,9 +387,6 @@ nav h1 {
     background-color:#192027;
     padding-bottom: 4rem;
 }
-.section-5 h1 {
-    font-size: 3.1rem;
-}
 .head-5 {
     text-align: center;
     font-weight: 700;
@@ -406,8 +403,8 @@ nav h1 {
 .pro-1 {
     /* border: 1px solid #00B089; */
     border-radius: 16px;
-    width: 23rem;
-    height: 22rem;
+    width: 20rem;
+    height: 13rem;
     margin-bottom: 2.5rem;
 }
 .pro-1 img {
@@ -419,7 +416,6 @@ nav h1 {
 
 }
 
-/*********** Section - 6 ***********/
 .section-6 {
     width: 100%;
     background-color:#272A37;

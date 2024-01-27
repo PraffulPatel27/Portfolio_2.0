@@ -88,6 +88,14 @@ nav h1 {
     align-items: center;
     /* border: 2px solid black; */
 }
+.head-1 {
+    margin-top: -1.2%;
+    opacity: 0.1;
+    border: 0.8px solid #fff;
+    width: 95%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
 .left-content {
     padding-top: 5%;
     padding-left: 10%;
@@ -185,6 +193,9 @@ nav h1 {
     padding-left: 1%;
     cursor: pointer;
     /* background: none; */
+}
+.social img:hover {
+    
 }
 .pic {
     width: 20rem;
@@ -381,14 +392,15 @@ nav h1 {
     padding-right: 2.5rem;
 }
 
-/*********** Section - 5 ***********/
 .section-5 {
     width: 100%;
     background-color:#192027;
     padding-bottom: 4rem;
 }
 .section-5 h1 {
-    font-size: 3.1rem;
+    margin-top: 1.5%;
+    text-align: center;
+    color: #fff;
 }
 .head-5 {
     text-align: center;
@@ -406,8 +418,8 @@ nav h1 {
 .pro-1 {
     /* border: 1px solid #00B089; */
     border-radius: 16px;
-    width: 23rem;
-    height: 22rem;
+    width: 20rem;
+    height: 13rem;
     margin-bottom: 2.5rem;
 }
 .pro-1 img {
@@ -419,7 +431,6 @@ nav h1 {
 
 }
 
-/*********** Section - 6 ***********/
 .section-6 {
     width: 100%;
     background-color:#272A37;
