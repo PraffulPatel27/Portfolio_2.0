@@ -584,12 +584,11 @@ nav h1 {
     color: white;
     font-size: 1rem;
     text-align: center;
-    opacity: 0.9;
-    transition: all .5s ease;
+    opacity: 0.8;
 }
 .contact-btn:hover {
-    opacity: 1.1;
-    /* transition: 0.4s; */
+    opacity: 1;
+    transition: 1s;
 }
 
  /********** Footer css **********/

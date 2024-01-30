@@ -576,7 +576,7 @@ nav h1 {
     width: 12.5%;
     height: 3rem;
     margin-top: 2.2%;
-    margin-left: 33.5rem;
+    margin-left: 33rem;
     border-radius: 5px;
     background: #00B089;
     border: none;
@@ -584,12 +584,6 @@ nav h1 {
     color: white;
     font-size: 1rem;
     text-align: center;
-    opacity: 0.9;
-    transition: all .5s ease;
-}
-.contact-btn:hover {
-    opacity: 1.1;
-    /* transition: 0.4s; */
 }
 
  /********** Footer css **********/

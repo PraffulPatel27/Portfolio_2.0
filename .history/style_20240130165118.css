@@ -187,7 +187,8 @@ nav h1 {
     /* background: none; */
 }
 .pic {
-    width: 17rem;
+    max-width: 15rem;
+    min-width: 12rem;
     margin-top:5%;
     margin-right: -62%;
     flex-wrap: wrap;
@@ -514,8 +515,6 @@ nav h1 {
 .section-6 {
     width: 100%;
     background-color:#272A37;
-    padding-left: 10rem;
-    padding-right: 10rem;
     padding-bottom: 3.5rem;
 }
 .section-6 h1 {
@@ -528,25 +527,21 @@ nav h1 {
     font-weight: 700;
     margin-top: 2.5%;
 }
-
 .contact {
     /* border: 1px solid #00B089; */
     margin-top: 3.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     /* height: 21rem; */
     /* padding-left: 25rem; */
 }
 .contact-box-1 {
     width: 40rem;
+    margin-left: 27.8rem;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     /* border: 1px solid #00B089; */
 }
 .contact-box-2 {
     width: 40rem;
-    /* margin-left: 27.8rem; */
+    margin-left: 27.8rem;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     /* border: 1px solid #00B089; */
 }
@@ -573,10 +568,10 @@ nav h1 {
     outline: none;
 }
 .contact-btn {
-    width: 12.5%;
+    width: 10%;
     height: 3rem;
     margin-top: 2.2%;
-    margin-left: 33.5rem;
+    margin-left: 42.6rem;
     border-radius: 5px;
     background: #00B089;
     border: none;
@@ -584,12 +579,6 @@ nav h1 {
     color: white;
     font-size: 1rem;
     text-align: center;
-    opacity: 0.9;
-    transition: all .5s ease;
-}
-.contact-btn:hover {
-    opacity: 1.1;
-    /* transition: 0.4s; */
 }
 
  /********** Footer css **********/
